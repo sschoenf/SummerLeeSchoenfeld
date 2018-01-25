@@ -1,0 +1,222 @@
+
+
+.container {
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*https://css-tricks.com/dont-overthink-flexbox-grids/*/
+.grid {
+    display: block;
+}
+
+.grid-styleguide{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #252342;
+    color: white;
+
+}
+
+
+.col {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+}
+
+/* Basic grid structure from project 02 code-creation station */
+.grid .col.bleed {
+    padding: 0;
+}
+
+.col.one-third {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+}
+
+.col.two-third {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66%;
+    flex: 0 0 66%;
+}
+.col.one-half {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+.col.one-quarter {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+}
+
+.col.fill {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.col.one-sixth {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.66%;
+    flex: 0 0 16.66%;
+}
+.col.one-fourth{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+}
+.col.one-fifth{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+}
+
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.col {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.col:last-child {
+    padding-right: 1rem;
+}
+
+.padded-container {
+    padding: 1rem 1rem 0 1rem;
+}
+
+/*used on project preview on index page*/
+.padded-container-margin {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.padded-order-button {
+    margin-top: 1.5rem;
+}
+
+.mobile-bleed {
+    padding: 0;
+}
+
+.grid > .col {
+    padding: 1rem 0 0 1rem;
+}
+
+.centered-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-centered-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+@media (min-width: 54.125em) {
+    .grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .padded-container.mobile-bleed {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .mobile-centered-container {
+        display: block;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+  .col.one-third{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  nav {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: center;
+  }
+
+  .nav-name-style {
+    font-family: "SFUITextMedium", Arial , sans-serif;
+    font-size: 1rem;
+    color: #383D41;
+    letter-spacing: 0.87px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.header-branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0rem 0;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: auto;
+}
+
+
+}

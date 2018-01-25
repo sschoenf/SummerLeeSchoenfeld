@@ -1,0 +1,436 @@
+
+a {
+  text-decoration: none;
+}
+
+a .selected {
+    display: inline-block;
+    border-bottom: 2px solid #00797B;
+}
+
+
+a:focus, a:hover  {
+
+  color: #FFD6D0;
+  text-decoration: none;
+
+}
+
+a:hover .nav-text-style {
+    color: pink;
+}
+
+.selected:focus .selected:hover{
+  display: inline-block;
+  border-bottom: 2px solid #FFD6D0;
+}
+
+footer {
+  background: #F8F8F8;
+  padding: 1rem;
+}
+
+
+header{
+  background-color: #F8F8F8;
+  position:fixed;
+  width:100%;
+}
+
+
+.header-branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .5rem 0;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: auto;
+  }
+
+  .header-branding > div:first-of-type {
+      width: 100%;
+  }
+
+
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.nav-heading {
+  margin-top: 0;
+}
+
+.header-background{
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+main {
+    max-width: 72rem;
+    margin: auto;
+    padding-top: 5.857125rem;
+    width: 100%;
+}
+
+.main_fix {
+    max-width: 72rem;
+    margin: auto;
+    padding-top: 5.857125rem;
+    width: 100%;
+}
+
+
+.main_wrap {
+  flex-wrap: wrap;
+}
+
+/*Headings and styles*/
+
+h1 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h2 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h3 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h4 {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+}
+
+h5 {
+  font-family: "SFUITextLight", Arial , sans-serif;
+}
+
+h6 {
+  font-family: "SFUITextLight", Arial , sans-serif;
+
+}
+
+p {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+
+}
+
+
+/*index page heading and text styles*/
+.nav-name-style {
+    font-family: "SFUITextMedium", Arial , sans-serif;
+    font-size: 1rem;
+    color: #383D41;
+    letter-spacing: 0.87px;
+    margin-right: 15px;
+}
+
+.nav-text-style {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #383D41;
+  letter-spacing: 0.87px;
+  margin-right: 15px;
+}
+
+
+.intro-title-style {
+  font-family: "SFUITextLight", Arial , sans-serif;
+  font-size: 3.2rem;
+  color: #00797B;
+  letter-spacing: 2.08px;
+
+}
+
+.intro-text-style {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.5rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  line-height: 40px;
+}
+
+.project-preview-heading {
+
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.2rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  margin-bottom: .5rem;
+
+}
+
+.project-preview-heading-2 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #777A7D;
+  letter-spacing: 0.78px;
+  margin-top: 0rem;
+}
+
+
+.footer-header {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  margin: 0;
+}
+
+
+.paragraph-description {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  line-height: 20px;
+}
+
+
+/*Project pages headings and text styles*/
+.project-header {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.8rem;
+  color: #383D41;
+  letter-spacing: 1.3px;
+  margin-bottom: .5rem;
+}
+
+.project-header-2 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #777A7D;
+  letter-spacing: 0.78px;
+  margin-top: 0rem;
+}
+
+.project-header-members-role-tools {
+
+font-family: "SFUITextBold", Arial , sans-serif;
+font-size: .9rem;;
+color: #6F7173;
+letter-spacing: 0.61px;
+}
+
+.project-members-role-tools {
+
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: .7rem;
+  color: #6F7173;
+  letter-spacing: 0.52px;
+  margin-top:0.1rem;
+}
+
+.project-paragraph-description {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1.1rem;
+  color: #2D2D2D;
+  line-height: 30px;
+}
+
+.project-side-hearder {
+font-family: "SFUITextBold", Arial , sans-serif;
+font-size: 1rem;
+color: #6F7173;
+letter-spacing: 0.61px;
+}
+
+.project-side-paragraph {
+font-family: "SFUITextRegular", Arial , sans-serif;
+font-size: .9rem;
+color: #6F7173;
+letter-spacing: 0.52px;
+}
+
+
+.project-subheading {
+font-family: "SFUITextHeavy", Arial , sans-serif;
+font-size: 1.2rem;
+color: #00797B;
+letter-spacing: 0.78px;
+margin: 0;
+}
+
+.project-subheading-2 {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 24px;
+  color: #777A7D;
+  letter-spacing: 1.04px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.project-paragraph {
+  font-family: "SFUITextRegular", Arial , sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  line-height: 28px;
+
+
+}
+
+.project-paragraph-emphasis {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  line-height: 28px;
+}
+
+.project-quote-style {
+font-family: "SFUITextLight", Arial , sans-serif;
+font-size: 1.1rem;
+color: #969595;
+line-height: 33px;
+text-align: center;
+}
+
+.project-side-note {
+  font-family: "SFUITextLight", Arial , sans-serif;
+  font-size: .8rem;
+  color: #969595;
+  line-height: 20px;
+  opacity: 0.4;
+  }
+
+
+.contact-text-style {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  font-size: 1.5rem;
+  color: #383D41;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+
+
+.center-text {
+text-align: center;
+}
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+
+}
+
+/*Extra margin spaces for text*/
+
+.extra-3-rem-top-margin{
+    margin-top: 3rem;
+}
+
+.extra-6-rem-top-margin{
+  margin-top: 6rem;
+}
+
+.extra-8-3-margin {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+.extra-bottom-3-margin {
+
+  margin-bottom: 3rem;
+}
+.no-side-margin{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+/*background bleed settings*/
+.background-homepage {
+
+background-color: #F8F8F8;
+/*padding-top: 1rem;*/
+padding-bottom: 10rem;
+min-height: 50vh;
+}
+
+.background-index {
+background-position: bottom center;
+background-size: cover;
+background-image: url("../img/index-background.jpg");
+/*padding-top: 1rem;*/
+padding-bottom: 10rem;
+min-height: 50vh;
+}
+
+.background-quiksilver {
+background-position: bottom center;
+background-size: cover;
+background-image: url("../img/qs-background.jpg");
+/*padding-top: 1rem;*/
+padding-bottom: 5rem;
+min-height: 50vh;
+}
+
+.background-wholefoods {
+background-image: url("../img/wf-background.jpg");
+/*padding-top: 1rem;*/
+padding-bottom: 10rem;
+min-height: 50vh;
+}
+
+
+.background-contact {
+background-position: bottom center;
+background-size: cover;
+background-image: url("../img/contact-background.jpg");
+/*padding-top: 1rem;*/
+padding-bottom: 5rem;
+min-height: 50vh;
+}
+
+.homepage-image {
+  margin: 0;
+}
+
+.homepage-image img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+/*Index, project preview image settings*/
+.project-image img {
+  width: 100%;
+  height: auto;
+
+}
+
+.homepage-text {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+a.card {
+  display: block;
+  padding-bottom: 1.2rem;
+  border-bottom: 6px solid #00797B;
+}
+
+a.card:hover, a.card:focus {
+  box-shadow: 2px 3px 6px #888888;
+}
