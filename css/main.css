@@ -372,7 +372,7 @@ background-position: bottom center;
 background-size: cover;
 background-image: url("../img/index-background.jpg");
 /*padding-top: 1rem;*/
-padding-bottom: 10rem;
+padding-bottom: 15rem;
 min-height: 50vh;
 }
 
@@ -388,10 +388,18 @@ min-height: 50vh;
 .background-wholefoods {
 background-image: url("../img/wf-background.jpg");
 /*padding-top: 1rem;*/
-padding-bottom: 10rem;
+padding-bottom: 5rem;
 min-height: 50vh;
 }
 
+.background-newyorktimes{
+background-position: bottom center;
+background-size: cover;
+background-image: url("../img/newyorktimes.jpg");
+/*padding-top: 1rem;*/
+padding-bottom: 5rem;
+min-height: 50vh;
+}
 
 .background-contact {
 background-position: bottom center;
