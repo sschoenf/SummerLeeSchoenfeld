@@ -35,6 +35,7 @@ header{
   background-color: #F8F8F8;
   position:fixed;
   width:100%;
+  z-index: 1;
 }
 
 
@@ -75,7 +76,10 @@ nav {
 .header-background{
   background-color: #F8F8F8;
   width: 100%;
+
+
 }
+
 
 main {
     max-width: 72rem;
@@ -447,7 +451,6 @@ a.card:hover, a.card:focus {
 .shadow {
     position: relative;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, .3);
-    padding: 10px;
     background: white;
 }
 
