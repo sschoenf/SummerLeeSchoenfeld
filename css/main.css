@@ -450,3 +450,9 @@ a.card:hover, a.card:focus {
     padding: 10px;
     background: white;
 }
+
+a {
+  font-family: "SFUITextMedium", Arial , sans-serif;
+  color: #2D2D2D;
+
+}
