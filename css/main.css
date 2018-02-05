@@ -442,3 +442,11 @@ a.card {
 a.card:hover, a.card:focus {
   box-shadow: 2px 3px 6px #888888;
 }
+
+
+.shadow {
+    position: relative;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, .3);
+    padding: 10px;
+    background: white;
+}
